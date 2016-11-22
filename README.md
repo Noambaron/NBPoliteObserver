@@ -37,7 +37,8 @@ Use exactly as you would use Foundation KVO, just call `addPoliteObserver` inste
     object = nil // Try this. It will NOT cause a crash
 ```
 
-## Remove Observer
+## Manually Remove Observer (Optional)
+The polite observer will remove itself automatically when (before) the observed object is deallocated... so this is completely optional.
 Use exactly as you would use Foundation KVO, just call `removePoliteObserver` instead of `removeObserver`
 ```objective-c
     object!.removePoliteObserver(self, forKeyPath: "keyPath")
