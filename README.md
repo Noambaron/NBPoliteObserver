@@ -16,6 +16,7 @@ To run the example project, clone the repo, and run
 
 
 ## Installation
+### CocoaPods
 
 NBPoliteObserver is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
@@ -23,12 +24,22 @@ it, simply add the following line to your Podfile:
 ```objective-c
 pod "NBPoliteObserver"
 ```
-Then import `NSObject+NBPolite.h`
+### Manual
+Add the following files to your project
+```objective-c
+NBPoliteObserverObject.h
+NBPoliteObserverObject.m
+NSObject+NBPolite.h
+NSObject+NBPolite.m
+```
+
+## Usage
+Import `NSObject+NBPolite.h` to your class (or bridging-header if its a swift project)
 ```objective-c
 #import <NBPoliteObserver/NSObject+NBPolite.h>
 ```
 
-## Add Observer
+### Add Observer
 Use exactly as you would use Foundation KVO, just call `addPoliteObserver` instead of `addObserver`
 
 ```objective-c
@@ -37,7 +48,7 @@ Use exactly as you would use Foundation KVO, just call `addPoliteObserver` inste
     object = nil // Try this. It will NOT cause a crash
 ```
 
-## Manually Remove Observer (Optional)
+### Manually Remove Observer (Optional)
 The polite observer will remove itself automatically when (before) the observed object is deallocated... so this is completely optional.
 Use exactly as you would use Foundation KVO, just call `removePoliteObserver` instead of `removeObserver`
 ```objective-c
