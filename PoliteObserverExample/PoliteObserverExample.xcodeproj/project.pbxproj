@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAA84E241DE4CB2000D7450A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA84E231DE4CB2000D7450A /* AppDelegate.swift */; };
+		CAA84E261DE4CB2000D7450A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA84E251DE4CB2000D7450A /* ViewController.swift */; };
+		CAA84E291DE4CB2000D7450A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAA84E271DE4CB2000D7450A /* Main.storyboard */; };
+		CAA84E2B1DE4CB2000D7450A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAA84E2A1DE4CB2000D7450A /* Assets.xcassets */; };
+		CAA84E2E1DE4CB2000D7450A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAA84E2C1DE4CB2000D7450A /* LaunchScreen.storyboard */; };
+		CAA84E391DE4CB2000D7450A /* PoliteObserverExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA84E381DE4CB2000D7450A /* PoliteObserverExampleTests.swift */; };
+		CAA84E4C1DE4CB3900D7450A /* NBPoliteObserver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAA84E491DE4CB2C00D7450A /* NBPoliteObserver.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAA84E351DE4CB2000D7450A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAA84E181DE4CB2000D7450A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAA84E1F1DE4CB2000D7450A;
+			remoteInfo = PoliteObserverExample;
+		};
+		CAA84E481DE4CB2C00D7450A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAA84E431DE4CB2C00D7450A /* NBPoliteObserver.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CAA84DB01DE4AF7800D7450A;
+			remoteInfo = NBPoliteObserver;
+		};
+		CAA84E4A1DE4CB2C00D7450A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAA84E431DE4CB2C00D7450A /* NBPoliteObserver.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CAA84DB91DE4AF7900D7450A;
+			remoteInfo = NBPoliteObserverTests;
+		};
+		CAA84E4D1DE4CB3F00D7450A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAA84E431DE4CB2C00D7450A /* NBPoliteObserver.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = CAA84DAF1DE4AF7800D7450A;
+			remoteInfo = NBPoliteObserver;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CAA84E201DE4CB2000D7450A /* PoliteObserverExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PoliteObserverExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAA84E231DE4CB2000D7450A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CAA84E251DE4CB2000D7450A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CAA84E281DE4CB2000D7450A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CAA84E2A1DE4CB2000D7450A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAA84E2D1DE4CB2000D7450A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CAA84E2F1DE4CB2000D7450A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAA84E341DE4CB2000D7450A /* PoliteObserverExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PoliteObserverExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAA84E381DE4CB2000D7450A /* PoliteObserverExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoliteObserverExampleTests.swift; sourceTree = "<group>"; };
+		CAA84E3A1DE4CB2000D7450A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAA84E431DE4CB2C00D7450A /* NBPoliteObserver.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = NBPoliteObserver.xcodeproj; path = ../NBPoliteObserver.xcodeproj; sourceTree = "<group>"; };
+		CAA84E4F1DE4CB4E00D7450A /* PoliteObserverExample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PoliteObserverExample-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAA84E1D1DE4CB2000D7450A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAA84E4C1DE4CB3900D7450A /* NBPoliteObserver.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAA84E311DE4CB2000D7450A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAA84E171DE4CB2000D7450A = {
+			isa = PBXGroup;
+			children = (
+				CAA84E431DE4CB2C00D7450A /* NBPoliteObserver.xcodeproj */,
+				CAA84E221DE4CB2000D7450A /* PoliteObserverExample */,
+				CAA84E371DE4CB2000D7450A /* PoliteObserverExampleTests */,
+				CAA84E211DE4CB2000D7450A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAA84E211DE4CB2000D7450A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAA84E201DE4CB2000D7450A /* PoliteObserverExample.app */,
+				CAA84E341DE4CB2000D7450A /* PoliteObserverExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAA84E221DE4CB2000D7450A /* PoliteObserverExample */ = {
+			isa = PBXGroup;
+			children = (
+				CAA84E231DE4CB2000D7450A /* AppDelegate.swift */,
+				CAA84E251DE4CB2000D7450A /* ViewController.swift */,
+				CAA84E271DE4CB2000D7450A /* Main.storyboard */,
+				CAA84E2A1DE4CB2000D7450A /* Assets.xcassets */,
+				CAA84E2C1DE4CB2000D7450A /* LaunchScreen.storyboard */,
+				CAA84E2F1DE4CB2000D7450A /* Info.plist */,
+				CAA84E4F1DE4CB4E00D7450A /* PoliteObserverExample-Bridging-Header.h */,
+			);
+			path = PoliteObserverExample;
+			sourceTree = "<group>";
+		};
+		CAA84E371DE4CB2000D7450A /* PoliteObserverExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				CAA84E381DE4CB2000D7450A /* PoliteObserverExampleTests.swift */,
+				CAA84E3A1DE4CB2000D7450A /* Info.plist */,
+			);
+			path = PoliteObserverExampleTests;
+			sourceTree = "<group>";
+		};
+		CAA84E441DE4CB2C00D7450A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAA84E491DE4CB2C00D7450A /* NBPoliteObserver.framework */,
+				CAA84E4B1DE4CB2C00D7450A /* NBPoliteObserverTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAA84E1F1DE4CB2000D7450A /* PoliteObserverExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAA84E3D1DE4CB2000D7450A /* Build configuration list for PBXNativeTarget "PoliteObserverExample" */;
+			buildPhases = (
+				CAA84E1C1DE4CB2000D7450A /* Sources */,
+				CAA84E1D1DE4CB2000D7450A /* Frameworks */,
+				CAA84E1E1DE4CB2000D7450A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAA84E4E1DE4CB3F00D7450A /* PBXTargetDependency */,
+			);
+			name = PoliteObserverExample;
+			productName = PoliteObserverExample;
+			productReference = CAA84E201DE4CB2000D7450A /* PoliteObserverExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAA84E331DE4CB2000D7450A /* PoliteObserverExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAA84E401DE4CB2000D7450A /* Build configuration list for PBXNativeTarget "PoliteObserverExampleTests" */;
+			buildPhases = (
+				CAA84E301DE4CB2000D7450A /* Sources */,
+				CAA84E311DE4CB2000D7450A /* Frameworks */,
+				CAA84E321DE4CB2000D7450A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAA84E361DE4CB2000D7450A /* PBXTargetDependency */,
+			);
+			name = PoliteObserverExampleTests;
+			productName = PoliteObserverExampleTests;
+			productReference = CAA84E341DE4CB2000D7450A /* PoliteObserverExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAA84E181DE4CB2000D7450A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Noam;
+				TargetAttributes = {
+					CAA84E1F1DE4CB2000D7450A = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 7QU9UNNTNE;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Automatic;
+					};
+					CAA84E331DE4CB2000D7450A = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 7QU9UNNTNE;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CAA84E1F1DE4CB2000D7450A;
+					};
+				};
+			};
+			buildConfigurationList = CAA84E1B1DE4CB2000D7450A /* Build configuration list for PBXProject "PoliteObserverExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAA84E171DE4CB2000D7450A;
+			productRefGroup = CAA84E211DE4CB2000D7450A /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = CAA84E441DE4CB2C00D7450A /* Products */;
+					ProjectRef = CAA84E431DE4CB2C00D7450A /* NBPoliteObserver.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				CAA84E1F1DE4CB2000D7450A /* PoliteObserverExample */,
+				CAA84E331DE4CB2000D7450A /* PoliteObserverExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		CAA84E491DE4CB2C00D7450A /* NBPoliteObserver.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = NBPoliteObserver.framework;
+			remoteRef = CAA84E481DE4CB2C00D7450A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CAA84E4B1DE4CB2C00D7450A /* NBPoliteObserverTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = NBPoliteObserverTests.xctest;
+			remoteRef = CAA84E4A1DE4CB2C00D7450A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAA84E1E1DE4CB2000D7450A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAA84E2E1DE4CB2000D7450A /* LaunchScreen.storyboard in Resources */,
+				CAA84E2B1DE4CB2000D7450A /* Assets.xcassets in Resources */,
+				CAA84E291DE4CB2000D7450A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAA84E321DE4CB2000D7450A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAA84E1C1DE4CB2000D7450A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAA84E261DE4CB2000D7450A /* ViewController.swift in Sources */,
+				CAA84E241DE4CB2000D7450A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAA84E301DE4CB2000D7450A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAA84E391DE4CB2000D7450A /* PoliteObserverExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAA84E361DE4CB2000D7450A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAA84E1F1DE4CB2000D7450A /* PoliteObserverExample */;
+			targetProxy = CAA84E351DE4CB2000D7450A /* PBXContainerItemProxy */;
+		};
+		CAA84E4E1DE4CB3F00D7450A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NBPoliteObserver;
+			targetProxy = CAA84E4D1DE4CB3F00D7450A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CAA84E271DE4CB2000D7450A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAA84E281DE4CB2000D7450A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CAA84E2C1DE4CB2000D7450A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAA84E2D1DE4CB2000D7450A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAA84E3B1DE4CB2000D7450A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CAA84E3C1DE4CB2000D7450A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAA84E3E1DE4CB2000D7450A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 7QU9UNNTNE;
+				INFOPLIST_FILE = PoliteObserverExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.noam.PoliteObserverExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PoliteObserverExample/PoliteObserverExample-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CAA84E3F1DE4CB2000D7450A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 7QU9UNNTNE;
+				INFOPLIST_FILE = PoliteObserverExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.noam.PoliteObserverExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PoliteObserverExample/PoliteObserverExample-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CAA84E411DE4CB2000D7450A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7QU9UNNTNE;
+				INFOPLIST_FILE = PoliteObserverExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.noam.PoliteObserverExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PoliteObserverExample.app/PoliteObserverExample";
+			};
+			name = Debug;
+		};
+		CAA84E421DE4CB2000D7450A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7QU9UNNTNE;
+				INFOPLIST_FILE = PoliteObserverExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.noam.PoliteObserverExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PoliteObserverExample.app/PoliteObserverExample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAA84E1B1DE4CB2000D7450A /* Build configuration list for PBXProject "PoliteObserverExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAA84E3B1DE4CB2000D7450A /* Debug */,
+				CAA84E3C1DE4CB2000D7450A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAA84E3D1DE4CB2000D7450A /* Build configuration list for PBXNativeTarget "PoliteObserverExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAA84E3E1DE4CB2000D7450A /* Debug */,
+				CAA84E3F1DE4CB2000D7450A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CAA84E401DE4CB2000D7450A /* Build configuration list for PBXNativeTarget "PoliteObserverExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAA84E411DE4CB2000D7450A /* Debug */,
+				CAA84E421DE4CB2000D7450A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAA84E181DE4CB2000D7450A /* Project object */;
+}

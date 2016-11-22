@@ -1,0 +1,4 @@
+framework module NBPoliteObserver {
+  umbrella header "NSObject+NBPolite.h"
+  export *
+}
