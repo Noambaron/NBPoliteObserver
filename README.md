@@ -48,7 +48,7 @@ Feel free to collaborate with ideas, issues and/or pull requests.
 
 ## Author
 
-Noam Bar-on, https://www.linkedin.com/in/noambaron
+[Noam Bar-on](https://www.linkedin.com/in/noambaron)
 
 ## License
 
