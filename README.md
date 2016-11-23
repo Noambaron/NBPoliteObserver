@@ -1,5 +1,5 @@
 # NBPoliteObserver
-A polite KVO observer that removes itself automatically when observed object deallocates... instead of rudely crashing
+A very simple, very light weight polite KVO observer that removes itself automatically when observed object deallocates... instead of rudely crashing
 
 [![Version](https://img.shields.io/cocoapods/v/NBPoliteObserver.svg?style=flat)](http://cocoapods.org/pods/NBPoliteObserver)
 [![License](https://img.shields.io/cocoapods/l/NBPoliteObserver.svg?style=flat)](http://cocoapods.org/pods/NBPoliteObserver)
